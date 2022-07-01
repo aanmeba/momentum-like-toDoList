@@ -1,11 +1,10 @@
-const API_KEY = "563492ad6f91700001000001050bbe3060bd49dd92a6744efc808653";
-
 async function getImage() {
   const response = await fetch(
     "https://api.pexels.com/v1/search?query=nature",
     {
       headers: {
-        Authorization: API_KEY,
+        Authorization:
+          "563492ad6f91700001000001050bbe3060bd49dd92a6744efc808653",
       },
     }
   );
